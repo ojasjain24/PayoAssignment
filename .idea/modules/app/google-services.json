@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458160229638",
+    "firebase_url": "https://payoassignment.firebaseio.com",
+    "project_id": "payoassignment",
+    "storage_bucket": "payoassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458160229638:android:4abcb88d97d42643f06287",
+        "android_client_info": {
+          "package_name": "com.example.payoassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458160229638-m3g5pbpbabbgd0phqnm42ktijpkvp79s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payoassignment",
+            "certificate_hash": "9e96fce45ce025a1d30d8b033a7b9a32607aa836"
+          }
+        },
+        {
+          "client_id": "458160229638-8jp5k3cmupi0joq5g44n21ive2ukpgni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXmpl-C404pvTXtiWcQan42HeCHuvCt8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458160229638-8jp5k3cmupi0joq5g44n21ive2ukpgni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

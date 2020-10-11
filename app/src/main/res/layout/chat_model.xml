@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chat_card">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chat_profile_pic"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#4C51B3"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/chat_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elen Musk"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_toEndOf="@id/chat_profile_pic"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/chat_profile_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_below="@id/chat_profile_name"
+        android:layout_toEndOf="@id/chat_profile_pic"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#0D0B60"
+        android:text="Hey there! I am new here Please help me in these things"/>
+
+    <LinearLayout
+        android:layout_below="@id/chat_profile_pic"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="4dp"
+        android:background="#440606"/>
+
+</RelativeLayout>
